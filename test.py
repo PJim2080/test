@@ -4,8 +4,3 @@ print sys.__name__
 s=raw_input('Enter something -->')
 print s
 
-try:
-    s=raw_input('Enter something --> ')
-except EOFError:
-    print 'Input Error!'
-print s
